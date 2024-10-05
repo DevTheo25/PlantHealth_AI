@@ -10,9 +10,7 @@
 - [Como Funciona](#como-funciona)
 - [Arquitetura do Modelo](#arquitetura-do-modelo)
 - [Treinamento e Avaliação](#treinamento-e-avaliação)
-- [Resultados](#resultados)
 - [Conclusão](#conclusão)
-- [Como Executar](#como-executar)
 - [Contato](#contato)
 
 ---
@@ -89,7 +87,7 @@ O modelo foi avaliado no conjunto de teste para medir sua precisão e capacidade
 
 O modelo foi utilizado para fazer inferencia em 6 novas imagens novas da WEB.
 
-**[Código de Avaliação](src/evaluate.py)**
+**[Código de Avaliação](notebooks/evaluate.ipynb)**
 
 ---
 
