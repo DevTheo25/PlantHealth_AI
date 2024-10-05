@@ -1,6 +1,6 @@
 # Identificação de Doenças em Plantas com Redes Neurais Convolucionais
 
-![Banner do Projeto](images/project_banner.png)
+![Banner do Projeto](https://www.blog-flores.pt/wp-content/uploads/2021/01/doencas-nas-plantas-88.jpg)
 
 ## Índice
 
