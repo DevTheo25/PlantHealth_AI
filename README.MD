@@ -42,7 +42,7 @@ Utilizamos o **PlantVillage Dataset**, um dos maiores e mais utilizados conjunto
 
 As imagens têm uma resolução de 256x256 pixels e estão divididas em várias classes, facilitando a criação de modelos de classificação.
 
-[Dowload do DataSet](https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset)
+[Download do DataSet](https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset)
 ---
 
 ## Como Funciona
@@ -50,7 +50,7 @@ As imagens têm uma resolução de 256x256 pixels e estão divididas em várias 
 1. **Coleta de Dados**: O dataset é carregado e dividido entre conjuntos de **treinamento**, **validação**, e **teste**.
 2. **Processamento das Imagens**: As imagens são processadas para padronização, incluindo redimensionamento e normalização dos pixels.
 3. **Treinamento do Modelo**: Utilizamos uma **Rede Neural Convolucional (CNN)**, treinada para aprender padrões que diferenciam folhas saudáveis das doentes.
-4. **Predição**: Depois de treinado, o modelo é capaz de receber novas imagens de folhas e classificar se estão saudáveis ou com alguma doença.
+4. **Predição**: Depois de treinado, o modelo é capaz de receber novas imagens de folhas prevendo qual a classe da folha e classificar se estão saudáveis ou com alguma doença.
 
 ---
 
@@ -64,7 +64,7 @@ O modelo desenvolvido é uma **Rede Neural Convolucional (CNN)**, escolhida por 
 - **Camadas Densas**: Para realizar a classificação.
 - **Camada Dropout**: Para prevenir overfitting.
 
-**[Ver Código do Modelo](src/model.py)**
+**[Código do Modelo](src/model.py)**
 
 ---
 
@@ -72,39 +72,24 @@ O modelo desenvolvido é uma **Rede Neural Convolucional (CNN)**, escolhida por 
 
 ### Treinamento
 
-Para o treinamento, usamos as imagens já existentes no dataset, aplicando técnicas de **data augmentation** para melhorar a capacidade do modelo de generalizar. O processo de treinamento foi gerenciado pelo script `train.py`.
+Para o treinamento, usamos as imagens já existentes no dataset. O processo de treinamento foi gerenciado pelo script `train.py`.
 
-**[Ver Código do Treinamento](src/train.py)**
+**[Código do Treinamento](src/train.py)**
 
 ### Avaliação
 
 O modelo foi avaliado no conjunto de teste para medir sua precisão e capacidade de generalização. As principais métricas usadas foram:
 
-- **Acurácia**: A porcentagem de previsões corretas.
-- **Matriz de Confusão**: Para visualizar como o modelo performou em cada classe.
+- **Acurácia**
+- **Precison**
+- **Recall**
+- **F1-score**
 
-**[Ver Código de Avaliação](src/evaluate.py)**
+- **Acurácia no Conjunto de Teste**: ~94,62%
 
----
+O modelo foi utilizado para fazer inferencia em 6 novas imagens novas da WEB.
 
-## Resultados
-
-### Acurácia
-
-- **Acurácia no Treinamento**: ~92%
-- **Acurácia no Conjunto de Teste**: ~88%
-
-### Visualizações
-
-- **Histórico de Treinamento**: A evolução da perda e da acurácia durante as épocas.
-
-![Histórico de Treinamento](reports/training_history.png)
-
-- **Matriz de Confusão**: Para avaliar a performance em cada classe.
-
-![Matriz de Confusão](reports/confusion_matrix.png)
-
-**[Ver Relatório Completo de Avaliação](reports/classification_report.txt)**
+**[Código de Avaliação](src/evaluate.py)**
 
 ---
 
@@ -112,66 +97,15 @@ O modelo foi avaliado no conjunto de teste para medir sua precisão e capacidade
 
 O projeto foi capaz de atingir uma boa acurácia na identificação de doenças em plantas, mostrando a eficácia das Redes Neurais Convolucionais para aplicações na agricultura.
 
-**Principais Conquistas:**
-
-- Desenvolvimento de um modelo que ajuda na identificação de doenças, oferecendo suporte a agricultores.
-- Implementação de boas práticas de treinamento e avaliação de redes neurais.
-- Geração de relatórios e visualizações para facilitar a compreensão dos resultados.
-
 Este projeto demonstra como a **Inteligência Artificial** pode ser utilizada para resolver problemas do mundo real, melhorando a eficiência e a produtividade na agricultura.
 
 ---
 
-## Como Executar
-
-1. **Clone o Repositório**:
-
-   ```bash
-   git clone https://github.com/seuusuario/plant-disease-identification.git
-   cd plant-disease-identification
-   ```
-
-2. **Instale as Dependências**:
-
-   Recomenda-se usar um ambiente virtual:
-
-   ```bash
-   python -m venv env
-   source env/bin/activate  # No Windows, use `env\Scripts\activate`
-   pip install -r requirements.txt
-   ```
-
-3. **Treine o Modelo**:
-
-   Execute o script de treinamento:
-
-   ```bash
-   python src/train.py
-   ```
-
-4. **Avalie o Modelo**:
-
-   Execute o script de avaliação:
-
-   ```bash
-   python src/evaluate.py
-   ```
-
----
 
 ## Contato
 
-- **Email**: seu.email@exemplo.com
-- **LinkedIn**: [Seu Perfil no LinkedIn](https://www.linkedin.com/in/seuperfil)
-
-Se você tiver alguma dúvida ou sugestão sobre o projeto, sinta-se à vontade para entrar em contato. Este projeto está aberto a colaborações e novas ideias!
-
-**[Veja no GitHub](https://github.com/seuusuario/plant-disease-identification)**
-
----
-
-**Licença**:
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+- **Email**: works.danielsilva@gmail.com
+- **LinkedIn**: [Daniel Silva](https://www.linkedin.com/in/daniel-silva-b73857214/)
+- **portfólio**: [Daniel Silva](https://danielsilvaportfolio-45bdec2430ab.herokuapp.com/)
 
 ---
