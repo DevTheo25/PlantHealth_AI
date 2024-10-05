@@ -1,6 +1,6 @@
 # Identificação de Doenças em Plantas com Redes Neurais Convolucionais
 
-![Banner do Projeto]()
+![Banner do Projeto](dataset-cover.png)
 
 ## Índice
 
