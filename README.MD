@@ -19,8 +19,6 @@
 
 Este projeto foi desenvolvido para identificar **doenças em plantas** a partir de imagens de folhas. Utilizando técnicas de **Visão Computacional** e **Inteligência Artificial**.
 
-Este README foi desenvolvido com o intuito de ser um material de apresentação do projeto para recrutadores, mostrando a capacidade de resolver problemas reais usando IA, de forma clara.
-
 ---
 
 ## Objetivo do Projeto
