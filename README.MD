@@ -27,7 +27,7 @@ Este README foi desenvolvido com o intuito de ser um material de apresentação 
 
 O objetivo principal deste projeto é desenvolver um modelo que seja capaz de **classificar imagens de folhas** em diferentes categorias, como "saudável" ou "infectada por alguma doença".
 
-Por meio deste projeto, pude aplicar e aprimorar minhas habilidades em **machine Learning**, **visão computacional**, *inteligência artificial*.
+Por meio deste projeto, pude aplicar e aprimorar minhas habilidades em **machine Learning**, **visão computacional**, **inteligência artificial**.
 
 ---
 
