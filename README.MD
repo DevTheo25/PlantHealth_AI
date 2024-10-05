@@ -1,6 +1,6 @@
 # Identificação de Doenças em Plantas com Redes Neurais Convolucionais
 
-![Banner do Projeto](https://www.blog-flores.pt/wp-content/uploads/2021/01/doencas-nas-plantas-88.jpg)
+![Banner do Projeto]()
 
 ## Índice
 
@@ -19,17 +19,17 @@
 
 ## Introdução
 
-Este projeto foi desenvolvido para identificar **doenças em plantas** a partir de imagens de folhas. Utilizando técnicas de **Visão Computacional** e **Inteligência Artificial**, o objetivo é criar uma solução que possa ajudar agricultores e profissionais da área a detectar precocemente problemas em suas plantações, melhorando a qualidade e a produtividade das culturas.
+Este projeto foi desenvolvido para identificar **doenças em plantas** a partir de imagens de folhas. Utilizando técnicas de **Visão Computacional** e **Inteligência Artificial**.
 
-Este README foi desenvolvido com o intuito de ser um material de apresentação do projeto para recrutadores, mostrando a capacidade de resolver problemas reais usando IA, de forma clara e acessível.
+Este README foi desenvolvido com o intuito de ser um material de apresentação do projeto para recrutadores, mostrando a capacidade de resolver problemas reais usando IA, de forma clara.
 
 ---
 
 ## Objetivo do Projeto
 
-O objetivo principal deste projeto é desenvolver um modelo que seja capaz de **classificar imagens de folhas** em diferentes categorias, como "saudável" ou "infectada por alguma doença". Essa solução pode ser utilizada por agricultores para **monitorar a saúde das plantas** e agir rapidamente na prevenção de danos maiores.
+O objetivo principal deste projeto é desenvolver um modelo que seja capaz de **classificar imagens de folhas** em diferentes categorias, como "saudável" ou "infectada por alguma doença".
 
-Por meio deste projeto, pude aplicar e aprimorar minhas habilidades em **aprendizado de máquina**, **visão computacional**, **tratamento de dados**, e **engenharia de modelos**.
+Por meio deste projeto, pude aplicar e aprimorar minhas habilidades em **machine Learning**, **visão computacional**, *inteligência artificial*.
 
 ---
 
