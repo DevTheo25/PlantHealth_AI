@@ -34,7 +34,7 @@ Por meio deste projeto, pude aplicar e aprimorar minhas habilidades em **machine
 ---
 
 ## Dataset
-
+[Dowload do DataSet](https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset)
 Utilizamos o **PlantVillage Dataset**, um dos maiores e mais utilizados conjuntos de dados para o estudo de doçenças em plantas. Esse dataset possui milhares de imagens de folhas, tanto **saudáveis** quanto **afetadas por diferentes doenças**.
 
 - **Plantas Incluídas**: Tomate, Maçã, Uva, Pimenta, Batata, entre outras.
