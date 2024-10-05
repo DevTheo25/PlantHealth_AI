@@ -104,6 +104,4 @@ Este projeto demonstra como a **Inteligência Artificial** pode ser utilizada pa
 
 - **Email**: works.danielsilva@gmail.com
 - **LinkedIn**: [Daniel Silva](https://www.linkedin.com/in/daniel-silva-b73857214/)
-- **portfólio**: [Daniel Silva](https://danielsilvaportfolio-45bdec2430ab.herokuapp.com/)
-
----
+- **Portfólio**: [Daniel Silva](https://danielsilvaportfolio-45bdec2430ab.herokuapp.com/)
